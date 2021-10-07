@@ -110,7 +110,11 @@ body {
   }
 
   .BouttonMail{
-    
+    margin: auto auto 10px auto;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+
   }
 
   .bouttonsubscribe {
@@ -124,7 +128,7 @@ body {
     background-color: #4c5fd7;
     border-radius:  5px;
     border: 1px solid white;
-    margin: auto;
+    margin: 10px auto auto 0 ;
     transition: 0.5s ease;
   }
 
@@ -132,6 +136,11 @@ body {
     background-color: white;
     color:  #4c5fd7;
   }
+
+  input::placeholder{
+    color: white;
+  }
+
 
 
 

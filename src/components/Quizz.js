@@ -109,7 +109,7 @@ export default function App() {
 						<div className='question-count'>
 							<span  className='question-count2' >Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
-						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+						<h4 className='question-text'>{questions[currentQuestion].questionText}</h4>
 					</div>
 
 					<div className='answer-section'>
