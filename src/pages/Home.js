@@ -58,6 +58,16 @@ class Home extends Component {
 </div>
     
                    </div>
+
+                   <footer>
+           
+      <a href ="https://facebook.com"> <img src="images/fb.png" class = "images" alt="logo handicap moteur" width="90px" /></a>
+        
+       <a href ="https://twitter.com"> <img src="images/tw.png" class = "images" alt="logo handicap moteur" width="90px"/></a>
+        
+       <a href ="https://instagram.com"> <img src="images/insta.png" class = "images" alt="logo handicap moteur" width="90px"/> </a>
+   
+       </footer>
                 </div>  
 
                 

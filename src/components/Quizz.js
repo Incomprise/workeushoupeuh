@@ -4,7 +4,7 @@ export default function App() {
 	
 	const questions = [
 		{
-			questionText: 'Quel est le nombre de personnes handicapées en France ?',
+			questionText: 'Quel est le nombre de personnes en situation de handicap en France ?',
 			answerOptions: [
 				{ answerText: '5 millions', isCorrect: false },
 				{ answerText: '52 millions', isCorrect: false },
@@ -12,67 +12,67 @@ export default function App() {
 			],
 		},
 		{
-			questionText: 'Combien de personnes handicapées travaillent ?',
+			questionText: 'Combien de personnes en situation de handicap travaillent ?',
 			answerOptions: [
-				{ answerText: '(jsaispo)', isCorrect: false },
-				{ answerText: '(jsaispo)', isCorrect: false },
-				{ answerText: '(jsaispo)', isCorrect: true },
+				{ answerText: '488', isCorrect: false },
+				{ answerText: '988 000', isCorrect: true },
+				{ answerText: '200 000', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Proportion effective qui travaille, par rapport à ceux qui ne travaillent pas alors qu\'ils sont en recherche active.',
+			questionText: 'Quel est le pourcentage de chômage des personnes en situation de handicap ?',
 			answerOptions: [
-				{ answerText: 'quarantedeux', isCorrect: true },
-				{ answerText: 'septahuit', isCorrect: false },
-				{ answerText: 'septasept', isCorrect: false },
+				{ answerText: '18%', isCorrect: true },
+				{ answerText: '59%', isCorrect: false },
+				{ answerText: '10%', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Sur l’ensemble de la population active handicapée, quelle est la proportion de personnes en fauteuil roulant.',
+			questionText: 'Quel est le montant engagé par l\'Agefiph pour soutenir l\'emploi des personnes en situation de handicap ? ',
 			answerOptions: [
-				{ answerText: '118', isCorrect: false },
-				{ answerText: '218', isCorrect: false },
-				{ answerText: '0', isCorrect: false },
+				{ answerText: '450,18 millions € ', isCorrect: false },
+				{ answerText: '435,5 millions €', isCorrect: true },
+				{ answerText: '418,22 millions €', isCorrect: false },
 			],
 		},
     {
-			questionText: 'Combien d”étudiants handicapés ont fréquenté les universités et grandes écoles françaises ?',
+			questionText: 'Quel est le nombre d\'étudiants en situation de handicap ?',
 			answerOptions: [
-				{ answerText: 'bim', isCorrect: false },
-				{ answerText: 'bam', isCorrect: false },
-				{ answerText: 'boom', isCorrect: false },
+				{ answerText: '361 000', isCorrect: true },
+				{ answerText: '452 000', isCorrect: false },
+				{ answerText: '118 218', isCorrect: false },
 			],
 		},
     {
-			questionText: 'Quel est le pourcentage d’handicapé obligatoire dans une entreprise d’au moins 20 personnes ? ',
+			questionText: 'Combien de personnes en situation de handicap se disent en difficulté lors de leurs déplacements ? ',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
+				{ answerText: '16%', isCorrect: false },
+				{ answerText: '67%', isCorrect: true },
+				{ answerText: '58%', isCorrect: false },
 			],
 		},
     {
-			questionText: 'Quelle est la proportion de travailleurs handicapés ayant besoin d’aménagement de poste en France ? ',
+			questionText: 'Selon vous, la plupart des handicaps sont acquis...',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
+				{ answerText: 'En regardant trop TF1', isCorrect: false },
+				{ answerText: 'A la naissance', isCorrect: false },
+				{ answerText: 'A cause du vieillissement', isCorrect: true },
 			],
 		},
     {
-			questionText: 'Quelle est la proportion de salariés jugeant la présence de leurs collègues handicapés enrichissante ? ',
+			questionText: 'Quelle est la proportion de travailleurs handicapés ayant besoin d\'aménagement de postes en France (temps de travail, accessibilité, etc.) ?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
+				{ answerText: '15%', isCorrect: true },
+				{ answerText: '65%', isCorrect: false },
+				{ answerText: '35%', isCorrect: false },
 			],
 		},
     {
-			questionText: 'Selon vous, la plupart des handicaps sont acquis ? (à cause du vieillissement )',
+			questionText: 'Quel est le nombre d\'étudiants en situation de handicap ?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
+				{ answerText: '20 000', isCorrect: false },
+				{ answerText: '25 000', isCorrect: true },
+				{ answerText: '30 000', isCorrect: false },
 			],
 		},
 	];
@@ -99,8 +99,6 @@ export default function App() {
 			{showScore ? (
 				<div className='score-section'>
 					Tu as {score} bonnes réponses !
-					{/*commentaire*/}
-					<button>bim bam boom</button>
 				</div>
 				
 			) : (
