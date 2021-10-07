@@ -8,7 +8,6 @@ body {
   }
   * {
     background-color: #4c5fd7;
-    
     font-family: "Verdana", cursive, sans-serif;
     color: #000000;
   }
@@ -108,6 +107,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 600px;
+    margin-top: 150px;
   }
 
   .BouttonMail{
@@ -125,8 +125,8 @@ body {
     justify-content: center;
     align-items: center;
     border: none;
-    color: white;
-    background-color: #4c5fd7;
+    color: #4c5fd7;
+    background-color:white;
     border-radius:  5px;
     border: 1px solid white;
     margin: 10px auto auto 0 ;
@@ -134,8 +134,8 @@ body {
   }
 
   .bouttonsubscribe:hover{
-    background-color: white;
-    color:  #4c5fd7;
+    background-color: #4c5fd7;
+    color:  white;
   }
 
   input::placeholder{
