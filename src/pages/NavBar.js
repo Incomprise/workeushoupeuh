@@ -1,21 +1,11 @@
 import React, {Component} from 'react';
-import { Route, Switch, Link, } from 'react-router-dom';
-import Quizz from '../components/Quizz';
 
-function pushQuizz(){
-    history.push("/quizz");
-
-}
-
-
-class Home extends Component {
-   
-
+class NavBar extends Component {
     render() {
 	    return (
 		<div className="row ">
 	           <div className="medium-12 columns">
-      <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+               <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
             <img src="images/logo.gif" class = "images" alt="logo handicap moteur" width="40px"/> 
             <a class="navbar-brand" href="/">EPSI Toulouse</a>
@@ -34,35 +24,9 @@ class Home extends Component {
             </div>
         </div>
     </nav>
-
-    <div  class="ContainerHeader">
-    <h1 class="Sitation">Le handicap ne peut pas être un handicap.</h1>
-    <h2 class="NomStephenHawking">Stephen Hawking</h2>
-    <p class="Description">
-        Artiste, Astronome, Astrophysicien, Cosmologiste, écrivain, écrivain scientifique, Physicien, Scientifique (1942 - 2018)
-    </p>
-
-    
-
-</div>
-
-     <div class="ContainerBouton">
-        
-    <div class="SousContainerBouton"><a class="liensboutons" href="guide.html">Guide</a></div>
- 
-    <div class="SousContainerBouton"><a class="liensboutons" href="plan.html">Plan Accessibilité</a> </div>
-
-    <div class="SousContainerBouton"><a class="liensboutons" href="/quizz">Quizz</a> </div>
-
-    <div class="SousContainerBouton"> <a class="liensboutons" href="contact.html">Contact</a> </div>
-</div>
-    
                    </div>
                 </div>  
-
-                
 	     );
     }
-
 }
-export default Home;
+export default NavBar;

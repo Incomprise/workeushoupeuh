@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export default function App() {
+	
 	const questions = [
 		{
 			questionText: 'Quel est le nombre de personnes handicapées en France ?',
@@ -97,14 +98,16 @@ export default function App() {
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>
-					Tu as {score} bonnes réponses
+					Tu as {score} bonnes réponses !
+					{/*commentaire*/}
+					<button>bim bam boom</button>
 				</div>
 				
 			) : (
 				<>
 					<div className='question-section'>
 						<div className='question-count'>
-							<span>Question {currentQuestion + 1}</span>/{questions.length}
+							<span  className='question-count2' >Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 					</div>
