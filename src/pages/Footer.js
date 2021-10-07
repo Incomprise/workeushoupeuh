@@ -30,7 +30,7 @@ function Footer() {
         <div className="App">
             <form onSubmit={submitHandler}>
                 <h4>Abonnez-vous à notre newsletter</h4>
-                <input type="email" placeholder="Votre email" onChange={inputHandler} value={input}/>
+                <input type="email"  className='BouttonMail' placeholder="Votre email" onChange={inputHandler} value={input}/>
                 <button className="bouttonsubscribe" type="submit">Envoyer</button>
             </form>
         </div>
