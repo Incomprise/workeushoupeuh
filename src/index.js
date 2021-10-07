@@ -10,8 +10,8 @@ import NavBar from './pages/NavBar';
 
 ReactDOM.render(
   <Router>
-    <NavBar/>
     <App />
+    <NavBar/>
     <Footer/>
   </Router>,
   document.getElementById('root')

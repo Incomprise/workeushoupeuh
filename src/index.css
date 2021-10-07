@@ -65,6 +65,7 @@ body {
   .question-count,.question-count2{
     margin: 10px auto 10px auto ;
     transition: 0.5s ease;
+    color: white;
   }
 
   .question-text{
@@ -72,6 +73,7 @@ body {
     margin: 0;
     text-transform: uppercase;
     transition: 0.5s ease;
+    color: rgb(240, 174, 20);
   }
   
   .correct {
@@ -106,7 +108,6 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 600px;
-    
   }
 
   .BouttonMail{
@@ -227,4 +228,18 @@ body {
     }
     
 
+  }
+
+  form {
+    margin-left: 450px;
+  }
+
+  form input {
+    width: 38%;
+    border-radius: 2%;
+  }
+
+  .fouteur {
+    width: 40%;
+    margin-left: 100px;
   }

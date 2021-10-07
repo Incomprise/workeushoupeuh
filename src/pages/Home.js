@@ -36,37 +36,38 @@ class Home extends Component {
     </nav>
 
     <div  class="ContainerHeader">
+    <div class="ContainerQRCODE">
     <h1 class="Sitation">Le handicap ne peut pas être un handicap.</h1>
+    <img src="images/QRCode.png" class="QRCODE"/>
     <h2 class="NomStephenHawking">Stephen Hawking</h2>
+    
+    </div>
     <p class="Description">
         Artiste, Astronome, Astrophysicien, Cosmologiste, écrivain, écrivain scientifique, Physicien, Scientifique (1942 - 2018)
     </p>
 
-    
-
 </div>
-
      <div class="ContainerBouton">
         
     <div class="SousContainerBouton"><a class="liensboutons" href="guide.html">Guide</a></div>
  
     <div class="SousContainerBouton"><a class="liensboutons" href="plan.html">Plan Accessibilité</a> </div>
 
-    <div class="SousContainerBouton"><a class="liensboutons" href="/quizz">Quizz</a> </div>
-
-    <div class="SousContainerBouton"> <a class="liensboutons" href="contact.html">Contact</a> </div>
+    <div class="SousContainerBouton"> <a class="liensboutons" href="/quizz">Quizz</a> </div>
+         
+    <div class="SousContainerBouton"> <a class="liensboutons" href="quizz.html">Contact</a> </div>
 </div>
-    
-                   </div>
+</div>
 
-                   <footer>
+
+                   <footer className="fouteur">
            
       <a href ="https://facebook.com"> <img src="images/fb.png" class = "images" alt="logo handicap moteur" width="90px" /></a>
         
        <a href ="https://twitter.com"> <img src="images/tw.png" class = "images" alt="logo handicap moteur" width="90px"/></a>
         
        <a href ="https://instagram.com"> <img src="images/insta.png" class = "images" alt="logo handicap moteur" width="90px"/> </a>
-   
+        
        </footer>
                 </div>  
 
